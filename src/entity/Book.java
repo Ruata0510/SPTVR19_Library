@@ -1,31 +1,21 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package entity;
 
 /**
  *
- * @author user
+ * @author sillamae kutsekool
  */
 public class Book {
     private String name;
     private String author;
     private Integer publishedYear;
-    
+
     public Book() {
-        
     }
 
     public Book(String name, String author, Integer publishedYear) {
         this.name = name;
         this.author = author;
         this.publishedYear = publishedYear;
-    }
-
-    public Book(String voina_i_mir, String lev_Tolstoi) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     public String getName() {
